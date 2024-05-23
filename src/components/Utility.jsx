@@ -2,7 +2,7 @@ import React from 'react'
 import MenWithPhoto from '../assets/images/webp/MenWithPhoto.png'
 const Utility = () => {
   return (
-    <section className='UtilityBG overflow-x-hidden'>
+    <section className='UtilityBG'>
         <div className="container max_width_1140 Utility_section_padding_top">
             <div className="row pb-5">
                 <div className=" col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
