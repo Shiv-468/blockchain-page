@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutUs from './components/AboutUs';
+import Ecosystem from './components/Ecosystem';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
+import SocialLinks from './components/SocialLinks';
+import Tokenomics from './components/Tokenomics';
+import Utility from './components/Utility';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeroSection/>
+      <SocialLinks/>
+      <AboutUs/>
+      <Tokenomics/>
+      <Utility/>
+      <Ecosystem/>
+      <SocialLinks/>
+      <Footer/>
+    </>
   );
 }
 
