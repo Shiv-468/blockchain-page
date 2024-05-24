@@ -29,7 +29,7 @@
     gap: 47px;
 }
 .gap_20{
-    gap: 20.5px;
+    gap: 10.5px;
 }
 .gap_67{
     gap: 37px;
@@ -38,7 +38,7 @@
     gap: 18px;
 }
 .common_button{
-    padding: 19px 32px;
+    padding: 16px;
     border: 1px solid var(--yellow);
     border-radius: 189px;
     transition: all 400ms ease-in-out;
@@ -49,7 +49,7 @@
     border: 1px solid white;
 }
 .btn_2{
-    padding: 19px 32px;
+    padding: 16px;
     border: 1px solid #FFFFFF;
     border-radius: 189px;
 }
@@ -224,10 +224,10 @@ left: 7%;
     opacity: 80%;
 }
 .hero_button_padding_top{
-    padding-top: 62.35px;
+    padding-top: 32.35px;
 }
 .About_section_padding_top{
-    padding-top: 70.76px;
+    padding-top: 40.76px;
 }
 .About_section_padding_bottom{
     padding-bottom: 48px;
@@ -321,6 +321,18 @@ left: 7%;
     margin-right: -10px;
 }
 @media (min-width:576px) {
+    .gap_20{
+        gap: 20.5px;
+    }
+    .hero_button_padding_top{
+        padding-top: 62.35px;
+    }
+    .common_button{
+        padding: 19px 32px;
+    }
+    .btn_2{
+        padding: 19px 32px;
+    }
     .padding_top_40{
         padding-top: 40px;
     }
@@ -331,19 +343,64 @@ left: 7%;
         gap: 67px;
     }
     .slider_padding_top{
-        padding-top: 141px;
+        padding-top: 61px;
+    }
+
+    .News_Card_Row_padding_top{
+        padding-top: 47px;
+    }
+    .News_Card_Row_padding_bottom{
+        padding-bottom: 70px;
+    }
+    .News_section_padding_top{
+        padding-top: 60px;
+    }
+    .footer_padding_top{
+        padding-top: 113px;
+    }
+    .footer_padding_bottom{
+        padding-bottom: 90px;
+    }
+    .roadmap_padding_top{
+        padding-top: 178px;
+    }
+    .roadmap_padding_bottom{
+        padding-bottom: 150px;
+    }
+    .Ecosystem_padding_top{
+        padding-top: 104px;
+    }
+    .Ecosystem_padding_bottom{
+       padding-bottom: 49px;
+    }
+    .Utility_section_padding_top{
+        padding-top: 94px;
+    }
+    .tokenomic_section_padding_top{
+        padding-top: 153px;
+    }
+    .tokenomic_section_padding_bottom{
+        padding-bottom: 160px;
+    }
+}
+@media (min-width:768px) {
+    .AboutSectionSpex{
+        opacity: 1;
+    }
+    .slider_padding_top{
+        padding-top: 101px;
     }
     .slider_padding_bottom{
-        padding-bottom: 143px;
+        padding-bottom: 53px;
     }
     .News_Card_Row_padding_top{
-        padding-top: 97px;
+        padding-top: 67px;
     }
     .News_Card_Row_padding_bottom{
         padding-bottom: 97px;
     }
     .News_section_padding_top{
-        padding-top: 125px;
+        padding-top: 85px;
     }
     .footer_padding_top{
         padding-top: 153px;
@@ -352,30 +409,25 @@ left: 7%;
         padding-bottom: 120px;
     }
     .roadmap_padding_top{
-        padding-top: 278px;
+        padding-top: 218px;
     }
     .roadmap_padding_bottom{
-        padding-bottom: 210px;
+        padding-bottom: 170px;
     }
     .Ecosystem_padding_top{
-        padding-top: 234px;
+        padding-top: 134px;
     }
     .Ecosystem_padding_bottom{
        padding-bottom: 69px;
     }
     .Utility_section_padding_top{
-        padding-top: 144px;
+        padding-top: 94px;
     }
     .tokenomic_section_padding_top{
-        padding-top: 293px;
+        padding-top: 203px;
     }
     .tokenomic_section_padding_bottom{
-        padding-bottom: 250px;
-    }
-}
-@media (min-width:768px) {
-    .AboutSectionSpex{
-        opacity: 1;
+        padding-bottom: 200px;
     }
 }
 @media (max-width:768px) {
@@ -433,5 +485,49 @@ left: 7%;
   .MenWithHat{
     opacity: 1;
   }
-
+  .About_section_padding_top{
+    padding-top: 70.76px;
+}
+.slider_padding_top{
+    padding-top: 141px;
+}
+.slider_padding_bottom{
+    padding-bottom: 143px;
+}
+.News_Card_Row_padding_top{
+    padding-top: 97px;
+}
+.News_Card_Row_padding_bottom{
+    padding-bottom: 97px;
+}
+.News_section_padding_top{
+    padding-top: 125px;
+}
+.footer_padding_top{
+    padding-top: 153px;
+}
+.footer_padding_bottom{
+    padding-bottom: 120px;
+}
+.roadmap_padding_top{
+    padding-top: 278px;
+}
+.roadmap_padding_bottom{
+    padding-bottom: 210px;
+}
+.Ecosystem_padding_top{
+    padding-top: 234px;
+}
+.Ecosystem_padding_bottom{
+   padding-bottom: 69px;
+}
+.Utility_section_padding_top{
+    padding-top: 144px;
+}
+.tokenomic_section_padding_top{
+    padding-top: 293px;
+}
+.tokenomic_section_padding_bottom{
+    padding-bottom: 250px;
+}
 }
