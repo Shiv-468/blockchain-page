@@ -7,9 +7,9 @@
     --font-size-lg: 32px;
     --font-size-xl: 32.2px;
     --font-size-2xl: 36px;
-    --font-size-3xl: 40.44px;
+    --font-size-3xl: 33.44px;
     --font-size-4xl: 48px;
-    --font-size-5xl: 64px;
+    --font-size-5xl: 44px;
     --font-size-6xl:79px;
     --font-size-7xl: 108.22px;
 
@@ -25,7 +25,7 @@
     --line-height-4xl: 48.94px;
     --line-height-5xl: 58px;
     --line-height-6xl: 77.45px;
-    --line-height-7xl: 95px;
+    --line-height-7xl: 60px;
     --line-height-8xl: 130.97px;
 
     --yellow:#FC9800;
@@ -142,4 +142,37 @@
 
 .font_weight_900{
     font-weight: 900;
+}
+@media (min-width:576px) {
+    :root {
+        --font-size-xsm: 14px;
+        --font-size-sm: 14.83px;
+        --font-size-xmd: 16px;
+        --font-size-md: 20px;
+        --font-size-xlg: 24px;
+        --font-size-lg: 32px;
+        --font-size-xl: 32.2px;
+        --font-size-2xl: 36px;
+        --font-size-3xl: 40.44px;
+        --font-size-4xl: 48px;
+        --font-size-5xl: 64px;
+        --font-size-6xl:79px;
+        --font-size-7xl: 108.22px;
+    
+        --line-height-xsm: 17.7px;
+        --line-height-sm: 19.36px;
+        --line-height-xmd: 24.2px;
+        --line-height-md: 25px;
+        --line-height-xlg: 25.6px;
+        --line-height-lg: 29.05px;
+        --line-height-xl: 30px;
+        --line-height-2xl: 32.12px;
+        --line-height-3xl: 43.57px;
+        --line-height-4xl: 48.94px;
+        --line-height-5xl: 58px;
+        --line-height-6xl: 77.45px;
+        --line-height-7xl: 95px;
+        --line-height-8xl: 130.97px;
+    
+    }
 }

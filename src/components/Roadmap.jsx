@@ -1,6 +1,6 @@
 import React from 'react'
-import TokennomicsTopBubbles from '../assets/images/webp/TokennomicsTopBubbles.png'
-import TokennomicsBottomBubbles from '../assets/images/webp/TokennomicsBottomBubbles.png'
+import RoadmapBottomBubbles from '../assets/images/webp/RoadmapBottomBubbles.png'
+import RoadmapTopBubbles from '../assets/images/webp/RoadmapTopBubbles.png'
 import Img1 from '../assets/images/webp/img1.png'
 import Img2 from '../assets/images/webp/img2.png'
 import Img3 from '../assets/images/webp/img3.png'
@@ -15,16 +15,17 @@ const Roadmap = () => {
         arrows: false,
         infinite: true,
         slidesToShow: 5,
+        variableWidth:true,
         slidesToScroll: 1,
         autoplay: true,
     };
     return (
         <section className=' bg-black position-relative roadmap_padding_bottom'>
-            <div className=" position-absolute TokennomicsTopBubbles">
-                <img src={TokennomicsTopBubbles} alt="TokennomicsTopBubbles" className=' w-100' />
+            <div className=" position-absolute TokennomicsTopBubbles w-100">
+                <img src={RoadmapTopBubbles} alt="TokennomicsTopBubbles" className=' w-100' />
             </div>
-            <div className=" position-absolute TokennomicsBottomBubbles">
-                <img src={TokennomicsBottomBubbles} alt="TokennomicsBottomBubbles" className=' w-100' />
+            <div className=" position-absolute TokennomicsBottomBubbles w-100">
+                <img src={RoadmapBottomBubbles} alt="TokennomicsBottomBubbles" className=' w-100' />
             </div>
             <div className=" container roadmap_padding_top ">
                 <div className=" d-flex flex-column align-items-center justify-content-center">

@@ -22,6 +22,9 @@
 .gap_21{
     gap: 21.29px;
 }
+.gap_18{
+    gap: 18.73px;
+}
 .gap_47{
     gap: 47px;
 }
@@ -29,7 +32,7 @@
     gap: 20.5px;
 }
 .gap_67{
-    gap: 67px;
+    gap: 37px;
 }
 .gap_18{
     gap: 18px;
@@ -87,7 +90,16 @@
 
 }
 .token_box1{
-    width: 296px;
+    max-width: 296px;
+    height: 101px;
+}
+.token_box2{
+    max-width: 131px;
+    height: 101px;
+}
+.token_box3{
+    max-width: 152px;
+    height: 101px;
 }
 .UtilityBG{
     background-image: url(./assets/images/webp/UtilityBG.png);
@@ -145,6 +157,28 @@
     right: 7%; 
     top: -3%;
 }
+.EcosystemNews{
+    top: 11%;
+    left: 5%;
+}
+.EcosystemSpex{
+    right: 5%;
+    bottom: 5%;
+    max-width: 160px;
+}
+.NewLaptop{
+    right: 7%;
+    top: 4%;
+}
+.NewMobile{
+left: 7%;
+    top: 6%;
+}
+
+
+
+
+
 
 .max_width_139{
     max-width: 139px;
@@ -160,20 +194,29 @@
     max-width: 894px;
 }
 .roadmap_padding_top{
-    padding-top: 278px;
+    padding-top: 78px;
 }
 .roadmap_padding_bottom{
-    padding-bottom: 210px;
+    padding-bottom: 80px;
 }
-.slider_padding_top{
-    padding-top: 141px;
-}
+
 .roadmap_first_box{
     padding-top: 75px;
+    width: 230px !important;
 }
-.slider_padding_bottom{
-    padding-bottom: 143px;
+.roadmap_second_box{
+    width: 281px !important;
 }
+.roadmap_third_box{
+    width: 281px !important;
+}
+.roadmap_fourth_box{
+    width: 294px !important;
+}
+.roadmap_fifth_box{
+    width: 283px !important;
+}
+
 .opacity_70{
     opacity: 70%;
 }
@@ -184,52 +227,56 @@
     padding-top: 62.35px;
 }
 .About_section_padding_top{
-    padding-top: 218.76px;
+    padding-top: 70.76px;
 }
 .About_section_padding_bottom{
-    padding-bottom: 130px;
+    padding-bottom: 48px;
 }
-.padding_top_40{
-    padding-top: 40px;
-}
+
 .margin_bottom_20{
     margin-bottom: 20px;
 }
 .tokenomic_section_padding_top{
-    padding-top: 293px;
+    padding-top: 80px;
 }
 .tokenomic_section_padding_bottom{
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 .News_Card_Row_padding_top{
-    padding-top: 97px;
+    padding-top: 30px;
 }
 .News_Card_Row_padding_bottom{
-    padding-bottom: 97px;
+    padding-bottom: 48px;
 }
 .News_section_padding_top{
-    padding-top: 125px;
+    padding-top: 48px;
 }
 .Utility_section_padding_top{
-    padding-top: 144px;
+    padding-top: 44px;
 }
 .Ecosystem_padding_top{
-    padding-top: 234px;
+    padding-top: 44px;
 }
 .Ecosystem_padding_bottom{
-   padding-bottom: 69px;
+   padding-bottom: 39px;
 }
 .footer_padding_top{
-    padding-top: 153px;
+    padding-top: 73px;
 }
 .footer_padding_bottom{
-    padding-bottom: 120px;
+    padding-bottom: 50px;
+}
+.slider_padding_top{
+    padding-top: 51px;
 }
 .padding_bottom_12{
     padding-bottom: 12.5px;
 }
 .margin_top_33{
     margin-top: 33px;
+}
+.z_index{
+    z-index: 1 !important;
 }
 .padding_right_12{
     padding-right: 12px;
@@ -238,7 +285,7 @@
     margin-top: 28px;
 }
 .margin_bottom_30{
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .max_width_538{
     max-width: 538px;
@@ -273,8 +320,118 @@
     margin-left: -10px;
     margin-right: -10px;
 }
+@media (min-width:576px) {
+    .padding_top_40{
+        padding-top: 40px;
+    }
+    .margin_bottom_30{
+        margin-bottom: 30px;
+    }
+    .gap_67{
+        gap: 67px;
+    }
+    .slider_padding_top{
+        padding-top: 141px;
+    }
+    .slider_padding_bottom{
+        padding-bottom: 143px;
+    }
+    .News_Card_Row_padding_top{
+        padding-top: 97px;
+    }
+    .News_Card_Row_padding_bottom{
+        padding-bottom: 97px;
+    }
+    .News_section_padding_top{
+        padding-top: 125px;
+    }
+    .footer_padding_top{
+        padding-top: 153px;
+    }
+    .footer_padding_bottom{
+        padding-bottom: 120px;
+    }
+    .roadmap_padding_top{
+        padding-top: 278px;
+    }
+    .roadmap_padding_bottom{
+        padding-bottom: 210px;
+    }
+    .Ecosystem_padding_top{
+        padding-top: 234px;
+    }
+    .Ecosystem_padding_bottom{
+       padding-bottom: 69px;
+    }
+    .Utility_section_padding_top{
+        padding-top: 144px;
+    }
+    .tokenomic_section_padding_top{
+        padding-top: 293px;
+    }
+    .tokenomic_section_padding_bottom{
+        padding-bottom: 250px;
+    }
+}
+@media (min-width:768px) {
+    .AboutSectionSpex{
+        opacity: 1;
+    }
+}
+@media (max-width:768px) {
+    .mobile_view {
+      display: flex;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: column;
+      top: 0;
+      transition: all 700ms linear;
+      background: #757879;
+      min-height: 100vh;
+      position: fixed;
+      width: 100%;
+    }
+  
+    .overflow_hidden {
+      overflow: hidden;
+    }
+  
+    .bar {
+      width: 26px;
+      height: 3px;
+      z-index: 99;
+      background: #B91C20;
+      transition: all 400ms linear;
+    }
+  
+    .cross .bar:nth-child(1) {
+      transform: translateY(8px);
+      rotate: 45deg;
+    }
+  
+    .cross .bar:nth-child(2) {
+      transform: translateX(-100%);
+      display: none;
+    }
+  
+    .cross .bar:nth-child(3) {
+      transform: translateY(-8px);
+      rotate: -48deg;
+    }
+  
+    .navShow {
+      right: 0;
+    }
+  
+    .navhide {
+      right: -100%;
+    }
+  
+  }
+  
 @media (min-width:992px) {
   .MenWithHat{
     opacity: 1;
   }
+
 }

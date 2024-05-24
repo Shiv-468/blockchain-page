@@ -9,17 +9,17 @@ import AboutSectionSpex from '../assets/images/svg/AboutSectionSpex.svg'
 const AboutUs = () => {
   return (
    <section className='AboutSectionBg position-relative'>
-    <div className="position-absolute AboutSectionSpex z-0">
+    <div className="position-absolute AboutSectionSpex opacity-25 z-0">
         <img src={AboutSectionSpex} alt="AboutSectionSpex" />
     </div>
     <div className=" container max_width_1140 About_section_padding_top About_section_padding_bottom">
         <div className=" row">
-            <div className=" col-12 col-lg-6 d-flex justify-content-start">
+            <div className=" col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center">
                 <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40 max_width_538' />
             </div>
             <div className=" col-12 col-lg-6 d-flex flex-column align-items-lg-end align-items-center">
             <div className=" max_width_547">
-                <div className=" d-flex align-items-center gap-4">
+                <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap ">
                 <a href="https://www.dextools.io/app/en/pairs">
                         <img src={Dextools_logo2} alt="Dextools_logo2" />
                     </a>

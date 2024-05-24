@@ -6,11 +6,15 @@ import Xlogo2 from '../assets/images/svg/x_logo2.svg'
 import Telegram_symbol2 from '../assets/images/svg/telegram_symbol2.svg'
 import Etherscan from '../assets/images/svg/Etherscan.svg'
 import EcosystemNews from '../assets/images/webp/EcosystemNews.png'
+import AboutSectionSpex from '../assets/images/svg/AboutSectionSpex.svg'
 const Ecosystem = () => {
   return (
    <section className='EcosystemBG position-relative'>
     <div className=" position-absolute EcosystemNews z-0">
         <img src={EcosystemNews} alt="EcosystemNews" />
+    </div>
+    <div className=" position-absolute EcosystemSpex z-0">
+        <img src={AboutSectionSpex} alt="EcosystemSpex" className=' w-100' />
     </div>
     <div className=" container max_width_1140 Ecosystem_padding_top Ecosystem_padding_bottom">
         <div className=" row">
@@ -19,7 +23,7 @@ const Ecosystem = () => {
             </div>
             <div className=" col-12 col-lg-6 d-flex pt-4 justify-content-center justify-content-lg-end">
           <div className=" max_width_547">
-          <div className=" d-flex align-items-center gap-4">
+          <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap">
                 <a href="https://www.dextools.io/app/en/pairs">
                         <img src={Dextools_logo2} alt="Dextools_logo2" />
                     </a>

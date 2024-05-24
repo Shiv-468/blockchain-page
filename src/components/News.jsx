@@ -6,16 +6,24 @@ import CommentIcon from '../assets/images/svg/CommentIcon.svg'
 import Retweeticon from '../assets/images/svg/Retweeticon.svg'
 import Hearticon from '../assets/images/svg/Hearticon.svg'
 import Shareicon from '../assets/images/svg/Shareicon.svg'
+import NewLaptop from '../assets/images/webp/NewLaptop.png'
+import NewMobile from '../assets/images/webp/NewMobile.png'
 const News = () => {
   return (
     <section className=' position-relative News_section_padding_top'>
         <div className=" position-absolute NewSectionBG z-0">
-            <img src={NewSectionBG} alt="NewSectionBG" className=' w-100' />
+            <img src={NewSectionBG} alt="NewSectionBG" className=' w-100 z-0' />
+        </div>
+        <div className=" position-absolute NewLaptop d-none d-lg-block z-0">
+            <img src={NewLaptop} alt="NewLaptop" className=' w-100' />
+        </div>
+        <div className=" position-absolute NewMobile d-none d-lg-block z-0">
+            <img src={NewMobile} alt="NewMobile" className=' w-100 z-0' />
         </div>
         <div className=" container max_width_1140 z-1">
-        <h2 className=' mb-0 text-black text-center font_weight_900 font_family_inter font_size_5xl line_height_6xl'>LATEST NEWS</h2>
+        <h2 className=' mb-0 text-black text-center font_weight_900 font_family_inter font_size_5xl line_height_6xl z-1'>LATEST NEWS</h2>
             <div className=" row z-1 mx_10 News_Card_Row_padding_top News_Card_Row_padding_bottom">
-                <div className="col-4 z-1 px_10">
+                <div className="col-12 col-sm-6 col-lg-4 z-1 px_10">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -45,7 +53,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4 z-1 px_10">
+                <div className="col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0 z-1 px_10">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -75,7 +83,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4 z-1 px_10">
+                <div className="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-0 z-1 px_10">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -105,7 +113,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4 z-1 px_10 mt-4">
+                <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -135,7 +143,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4 z-1 px_10 mt-4">
+                <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -165,7 +173,7 @@ const News = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4 z-1 px_10 mt-4">
+                <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
