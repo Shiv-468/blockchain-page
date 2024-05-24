@@ -56,7 +56,7 @@ const HeroSection = () => {
         <h1 className=' mb-0 text-white font_size_7xl line_height_8xl font_family_inter font_weight_900'>G<span className='color_yellow'>G</span></h1>
           <p className=' mb-0 text-white font_size_md line_height_xmd max_width_538'>Join The <span className=' color_yellow'>Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
           <div className=" d-flex gap_20 hero_button_padding_top">
-            <button className=' common_button bg_yellow text-black font_family_inter fw-semibold font_size_xmd line_height_sm'>Buy $GrayGensler</button>
+            <button className=' common_button btn_1 bg_yellow text-black font_family_inter fw-semibold font_size_xmd line_height_sm'>Buy $GrayGensler</button>
             <button className=' btn_2 bg-transparent text-white font_family_inter'>How To Buy?</button>
           </div>      
         </div>

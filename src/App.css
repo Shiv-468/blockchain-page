@@ -43,15 +43,27 @@
     border-radius: 189px;
     transition: all 400ms ease-in-out;
 }
-.common_button:hover{
+.btn_1:hover{
     background: transparent;
     color: white !important;
     border: 1px solid white;
+}
+.btn_3:hover{
+    background: transparent;
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+   
 }
 .btn_2{
     padding: 16px;
     border: 1px solid #FFFFFF;
     border-radius: 189px;
+    transition: all 400ms ease-in-out;
+}
+.btn_2:hover{
+    border: 1px solid transparent;
+    color: #000000 !important;
+    background: var(--yellow) !important;
 }
 .MenWithHat{
     right: 0;
