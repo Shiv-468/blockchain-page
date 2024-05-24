@@ -16,17 +16,23 @@ const HeroSection = () => {
      <h3 className=' mb-0 font_family_inter font_weight_900 font_size_3xl line_height_4xl text-white'>Gxxx Gxxxxxx</h3>
      </div>
         <div className=" d-flex gap_47 align-items-center">
-          <div className=" d-flex gap_21 align-items-center">
-           <a href="https://www.dextools.io/app/en/pairs" target=' _blank'>
+          <ul className=" ps-0 mb-0 d-flex gap_21 align-items-center">
+         <li>
+         <a href="https://www.dextools.io/app/en/pairs" target=' _blank'>
            <img src={Dextools} alt="dextools_logo" />
            </a>
-           <a href="https://twitter.com/" target=' _blank'>
+         </li>
+           <li>
+            <a href="https://twitter.com/" target=' _blank'>
            <img src={Xlogo} alt="x_logo" />
            </a>
-           <a href="https://telegram.org/" target=' _blank'>
+           </li>
+         <li>
+         <a href="https://telegram.org/" target=' _blank'>
            <img src={Telegram} alt="telegram_symbol" />
            </a>
-          </div>
+         </li>
+          </ul>
           <button className=' font_family_inter text-white font_size_xmd line_height_sm btn_2 bg-transparent fw-semibold'>Buy On Uniswap</button>
         </div>
       </nav>

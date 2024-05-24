@@ -16,6 +16,9 @@
 .max_width_1140{
     max-width: 1140px;
 }
+.gap_15{
+    gap: 15px;
+}
 .gap_21{
     gap: 21.29px;
 }
@@ -27,6 +30,9 @@
 }
 .gap_67{
     gap: 67px;
+}
+.gap_18{
+    gap: 18px;
 }
 .common_button{
     padding: 19px 32px;
@@ -94,6 +100,8 @@
     min-height: 544px;
 }
 .history_div{
+    margin-left: -4px;
+    margin-right: -4px;
     min-height: 136px;
     rotate: -2.02deg;
 }
@@ -117,18 +125,58 @@
     height: unset ;
 }
 
-
-
-
-
-
+.NewSectionBG{
+    top: 70px;
+}
+.News_Card{
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    transition: all 400ms linear;
+    padding: 26.28px 9px 19.8px 22px;
+}
+.News_Card:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.JoeBidenn{
+    width: 81px;
+    height: 81px;
+}
+.UtilityNotepad{
+    right: 7%; 
+    top: -3%;
+}
 
 .max_width_139{
     max-width: 139px;
     width: 100%;
 }
-
-
+.max_width_237{
+    max-width: 237px;
+}
+.max_width_185{
+    max-width: 185px;
+}
+.roadmap_para_width{
+    max-width: 894px;
+}
+.roadmap_padding_top{
+    padding-top: 278px;
+}
+.roadmap_padding_bottom{
+    padding-bottom: 210px;
+}
+.slider_padding_top{
+    padding-top: 141px;
+}
+.roadmap_first_box{
+    padding-top: 75px;
+}
+.slider_padding_bottom{
+    padding-bottom: 143px;
+}
+.opacity_70{
+    opacity: 70%;
+}
 .opacity_80{
     opacity: 80%;
 }
@@ -153,6 +201,15 @@
 .tokenomic_section_padding_bottom{
     padding-bottom: 250px;
 }
+.News_Card_Row_padding_top{
+    padding-top: 97px;
+}
+.News_Card_Row_padding_bottom{
+    padding-bottom: 97px;
+}
+.News_section_padding_top{
+    padding-top: 125px;
+}
 .Utility_section_padding_top{
     padding-top: 144px;
 }
@@ -173,6 +230,9 @@
 }
 .margin_top_33{
     margin-top: 33px;
+}
+.padding_right_12{
+    padding-right: 12px;
 }
 .margin_top_28{
     margin-top: 28px;
@@ -198,6 +258,20 @@
 }
 .max_width_547{
     max-width: 547px;
+}
+.pt_14{
+    padding-top: 14px;
+}
+.pb_32{
+    padding-bottom: 32px;
+}
+.px_10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mx_10{
+    margin-left: -10px;
+    margin-right: -10px;
 }
 @media (min-width:992px) {
   .MenWithHat{

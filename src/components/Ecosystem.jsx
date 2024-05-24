@@ -5,9 +5,13 @@ import Dextools_logo2 from '../assets/images/svg/dextools_logo2.svg'
 import Xlogo2 from '../assets/images/svg/x_logo2.svg'
 import Telegram_symbol2 from '../assets/images/svg/telegram_symbol2.svg'
 import Etherscan from '../assets/images/svg/Etherscan.svg'
+import EcosystemNews from '../assets/images/webp/EcosystemNews.png'
 const Ecosystem = () => {
   return (
-   <section className='EcosystemBG'>
+   <section className='EcosystemBG position-relative'>
+    <div className=" position-absolute EcosystemNews z-0">
+        <img src={EcosystemNews} alt="EcosystemNews" />
+    </div>
     <div className=" container max_width_1140 Ecosystem_padding_top Ecosystem_padding_bottom">
         <div className=" row">
             <div className=" col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">

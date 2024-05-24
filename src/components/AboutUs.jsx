@@ -14,8 +14,8 @@ const AboutUs = () => {
     </div>
     <div className=" container max_width_1140 About_section_padding_top About_section_padding_bottom">
         <div className=" row">
-            <div className=" col-12 col-lg-6">
-                <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40' />
+            <div className=" col-12 col-lg-6 d-flex justify-content-start">
+                <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40 max_width_538' />
             </div>
             <div className=" col-12 col-lg-6 d-flex flex-column align-items-lg-end align-items-center">
             <div className=" max_width_547">

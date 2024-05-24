@@ -1,8 +1,12 @@
 import React from 'react'
 import MenWithPhoto from '../assets/images/webp/MenWithPhoto.png'
+import UtilityNotepad from '../assets/images/webp/UtilityNotepad.png'
 const Utility = () => {
   return (
-    <section className='UtilityBG'>
+    <section className='UtilityBG position-relative'>
+      <div className=" position-absolute UtilityNotepad z-0">
+        <img src={UtilityNotepad} alt="UtilityNotepad" />
+      </div>
         <div className="container max_width_1140 Utility_section_padding_top">
             <div className="row pb-5">
                 <div className=" col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
@@ -17,7 +21,7 @@ const Utility = () => {
                 </div>
             </div>
         </div>
-        <div className=" history_div marginX_1 bg_yellow d-flex align-items-center justify-content-center">
+        <div className=" history_div overflow-hidden  bg_yellow d-flex align-items-center justify-content-center">
           <p className=' mb-0 text-center font_size_2xl line_height_3xl font_family_inter font_weight_900'>PLACE YOURSELF ON THE RIGHT SIDE OF HISTORY</p>
         </div>
     </section>
