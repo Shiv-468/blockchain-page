@@ -297,8 +297,8 @@ left: 7%;
     max-width: 453px;
 }
 .marginX_72{
-    margin-left: 72px;
-    margin-right: 72px;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 .max_width_616{
     max-width: 616.46px;
@@ -323,6 +323,10 @@ left: 7%;
 @media (min-width:576px) {
     .gap_20{
         gap: 20.5px;
+    }
+    .marginX_72{
+        margin-left: 42px;
+        margin-right: 42px;
     }
     .hero_button_padding_top{
         padding-top: 62.35px;
@@ -387,6 +391,10 @@ left: 7%;
     .AboutSectionSpex{
         opacity: 1;
     }
+    .marginX_72{
+        margin-left: 72px;
+        margin-right: 72px;
+    }
     .slider_padding_top{
         padding-top: 101px;
     }
@@ -438,7 +446,7 @@ left: 7%;
       flex-direction: column;
       top: 0;
       transition: all 700ms linear;
-      background: #757879;
+      background: black;
       min-height: 100vh;
       position: fixed;
       width: 100%;
@@ -452,7 +460,7 @@ left: 7%;
       width: 26px;
       height: 3px;
       z-index: 99;
-      background: #B91C20;
+      background: white;
       transition: all 400ms linear;
     }
   
@@ -486,7 +494,7 @@ left: 7%;
     opacity: 1;
   }
   .About_section_padding_top{
-    padding-top: 70.76px;
+    padding-top: 218.76px !important;
 }
 .slider_padding_top{
     padding-top: 141px;

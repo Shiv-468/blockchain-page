@@ -10,7 +10,7 @@ import AboutSectionSpex from '../assets/images/svg/AboutSectionSpex.svg'
 const Ecosystem = () => {
   return (
    <section className='EcosystemBG position-relative'>
-    <div className=" position-absolute EcosystemNews z-0">
+    <div className=" position-absolute EcosystemNews d-none d-md-block z-0">
         <img src={EcosystemNews} alt="EcosystemNews" />
     </div>
     <div className=" position-absolute EcosystemSpex z-0">
