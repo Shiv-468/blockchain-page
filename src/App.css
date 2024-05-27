@@ -100,8 +100,8 @@
 }
 
 .SocialLinks_padding {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .AboutSectionBg {
@@ -576,6 +576,11 @@
 }
 
 @media (min-width:767px) {
+    .SocialLinks_padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
     .copytext_div {
         max-width: 390px;
         padding: 10px 16px 15px 19.5px;
