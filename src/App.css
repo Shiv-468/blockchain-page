@@ -231,7 +231,7 @@
 
 .copytext_div {
     max-width: 390px;
-    padding: 10px 16px 15px 19.5px;
+    padding: 8px;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
 }
@@ -576,6 +576,10 @@
 }
 
 @media (min-width:767px) {
+    .copytext_div {
+        max-width: 390px;
+        padding: 10px 16px 15px 19.5px;
+    }
     .AboutSectionSpex {
         opacity: 1;
     }
