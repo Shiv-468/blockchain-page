@@ -40,15 +40,15 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
@@ -71,15 +71,15 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
@@ -102,15 +102,15 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
@@ -133,15 +133,15 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
@@ -164,15 +164,15 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
@@ -195,22 +195,22 @@ const News = () => {
                         <div className=" d-flex align-items-center padding_right_12 opacity_70 justify-content-between margin_top_28">
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={CommentIcon} alt="CommentIcon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>28</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>28</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Retweeticon} alt="Retweeticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>5</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>5</p>
                             </div>
                             <div className=" d-flex align-items-center gap-1">
                                 <img src={Hearticon} alt="Hearticon" />
-                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal'>21</p>
+                                <p className=' mb-0 font_size_sm line_height_xsm fw-normal font_family_SfProText'>21</p>
                             </div>
                             <img src={Shareicon} alt="Shareicon" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
   )
 }

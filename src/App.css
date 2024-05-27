@@ -17,7 +17,13 @@
 .font_family_inter {
     font-family: "Inter", sans-serif;
 }
-
+.font_family_SfProText{
+    font-family: "SfProText", sans-serif;
+}
+@font-face {
+    font-family:"SfProText" ;
+    src: url(./assets/fonts/SF-Pro-Text-Regular.otf);
+}
 .nav_paddings {
     padding: 35.92px 0;
 }
