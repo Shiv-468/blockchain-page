@@ -569,7 +569,7 @@
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:767px) {
     .AboutSectionSpex {
         opacity: 1;
     }
@@ -640,7 +640,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.9px) {
     .mobile_view {
         display: flex;
         align-items: center !important;

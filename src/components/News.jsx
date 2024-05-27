@@ -24,7 +24,7 @@ const News = () => {
         <h2 className=' mb-0 text-black text-center font_weight_900 font_family_inter font_size_5xl line_height_6xl z-1'>LATEST NEWS</h2>
             <div className=" row z-1 mx_10 News_Card_Row_padding_top News_Card_Row_padding_bottom">
                 <div className="col-12 col-sm-6 col-lg-4 z-1 px_10" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -55,7 +55,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0 z-1 px_10" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -86,7 +86,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-0 z-1 px_10" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -117,7 +117,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -148,7 +148,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />
@@ -179,7 +179,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-4 z-1 px_10 mt-4" data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
                     <div className="News_Card">
                         <div className=" d-flex gap_15 align-items-center margin_bottom_20">
                             <img src={JoeBidenn} alt="JoeBidenn" className='JoeBidenn' />

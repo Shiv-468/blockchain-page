@@ -17,9 +17,9 @@ const Footer = () => {
                     <div className=" d-flex flex-column">
                         <h4 className=' margin_bottom_30 text-white font_size_xmd line_height_xlg font_family_inter fw-bold'>QUICK LINKS</h4>
                         <ul className=' ps-0 mb-0 d-flex flex-column gap-3'>
-                            <li><a href="#" className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>Twitter</a></li>
-                            <li><a href="#" className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>Telegram</a></li>
-                            <li><a href="#" className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>DexTools</a></li>
+                            <li><a href="https://twitter.com/" target='_blank' className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>Twitter</a></li>
+                            <li><a href="https://telegram.org/" target='_blank' className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>Telegram</a></li>
+                            <li><a href="https://www.dextools.io/app/en/pairs" target='_blank' className=' text-white font_size_xmd line_height_xlg font_family_inter fw-normal'>DexTools</a></li>
                         </ul>
                     </div>
                 </div>

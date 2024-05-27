@@ -29,19 +29,19 @@ const AboutUs = () => {
             <div className=" col-12 mt-4 mt-lg-0 col-lg-6 d-flex flex-column align-items-lg-end align-items-center" data-aos="fade-left">
             <div className=" max_width_547">
                 <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap ">
-                <a href="https://www.dextools.io/app/en/pairs">
+                <a href="https://www.dextools.io/app/en/pairs" target='_blank'>
                         <img src={Dextools_logo2} alt="Dextools_logo2" />
                     </a>
-                    <a href="https://uniswap.org/">
+                    <a href="https://uniswap.org/" target='_blank'>
                         <img src={Uniswap} alt="Uniswap" />
                     </a>
-                    <a href="https://twitter.com/">
+                    <a href="https://twitter.com/" target='_blank'>
                         <img src={Xlogo2} alt="Xlogo2" />
                     </a>
-                    <a href="https://telegram.org/">
+                    <a href="https://telegram.org/" target='_blank'>
                         <img src={Telegram_symbol2} alt="Telegram_symbol2" />
                     </a>
-                    <a href="https://etherscan.io/">
+                    <a href="https://etherscan.io/" target='_blank'>
                         <img src={Etherscan} alt="Etherscan" />
                     </a>
                 </div>
