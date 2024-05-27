@@ -1,11 +1,11 @@
 import React from 'react'
-import MenWithNewspaper from '../assets/images/webp/MenWithNewspaper.png'
+import MenWithNewspaper from '../assets/images/webp/MenWithNewspaper.webp'
 import Uniswap from '../assets/images/svg/Uniswap.svg'
 import Dextools_logo2 from '../assets/images/svg/dextools_logo2.svg'
 import Xlogo2 from '../assets/images/svg/x_logo2.svg'
 import Telegram_symbol2 from '../assets/images/svg/telegram_symbol2.svg'
 import Etherscan from '../assets/images/svg/Etherscan.svg'
-import EcosystemNews from '../assets/images/webp/EcosystemNews.png'
+import EcosystemNews from '../assets/images/webp/EcosystemNews.webp'
 import AboutSectionSpex from '../assets/images/svg/AboutSectionSpex.svg'
 const Ecosystem = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import TokennomicsTopBubbles from '../assets/images/webp/TokennomicsTopBubbles.png'
-import TokennomicsBottomBubbles from '../assets/images/webp/TokennomicsBottomBubbles.png'
+import TokennomicsTopBubbles from '../assets/images/webp/TokennomicsTopBubbles.webp'
+import TokennomicsBottomBubbles from '../assets/images/webp/TokennomicsBottomBubbles.webp'
 const Tokenomics = () => {
     return (
         <section className=' bg-black position-relative'>

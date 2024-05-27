@@ -1,13 +1,13 @@
 import React from 'react'
-import NewSectionBG from '../assets/images/webp/NewSectionBG.png'
+import NewSectionBG from '../assets/images/webp/NewSectionBG.webp'
 import JoeBidenn from '../assets/images/svg/JoeBidenn.svg'
 import BlueTick from '../assets/images/svg/BlueTick.svg'
 import CommentIcon from '../assets/images/svg/CommentIcon.svg'
 import Retweeticon from '../assets/images/svg/Retweeticon.svg'
 import Hearticon from '../assets/images/svg/Hearticon.svg'
 import Shareicon from '../assets/images/svg/Shareicon.svg'
-import NewLaptop from '../assets/images/webp/NewLaptop.png'
-import NewMobile from '../assets/images/webp/NewMobile.png'
+import NewLaptop from '../assets/images/webp/NewLaptop.webp'
+import NewMobile from '../assets/images/webp/NewMobile.webp'
 const News = () => {
   return (
     <section className=' position-relative News_section_padding_top'>

@@ -1,9 +1,18 @@
 import React from 'react'
-import MenWithPhoto from '../assets/images/webp/MenWithPhoto.png'
-import UtilityNotepad from '../assets/images/webp/UtilityNotepad.png'
+import MenWithPhoto from '../assets/images/webp/MenWithPhoto.webp'
+import UtilityNotepad from '../assets/images/webp/UtilityNotepad.webp'
 const Utility = () => {
   return (
     <section className='UtilityBG position-relative'>
+         <div className=" position-absolute z-0 Fuding4">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
+    <div className=" position-absolute z-0 Fuding5">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
+    <div className=" position-absolute z-0 Fuding6">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
       <div className=" position-absolute UtilityNotepad z-0">
         <img src={UtilityNotepad} alt="UtilityNotepad" />
       </div>

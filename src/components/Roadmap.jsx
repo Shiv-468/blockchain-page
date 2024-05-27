@@ -1,11 +1,11 @@
 import React from 'react'
-import RoadmapBottomBubbles from '../assets/images/webp/RoadmapBottomBubbles.png'
-import RoadmapTopBubbles from '../assets/images/webp/RoadmapTopBubbles.png'
-import Img1 from '../assets/images/webp/img1.png'
-import Img2 from '../assets/images/webp/img2.png'
-import Img3 from '../assets/images/webp/img3.png'
-import Img4 from '../assets/images/webp/img4.png'
-import Img5 from '../assets/images/webp/img5.png'
+import RoadmapBottomBubbles from '../assets/images/webp/RoadmapBottomBubbles.webp'
+import RoadmapTopBubbles from '../assets/images/webp/RoadmapTopBubbles.webp'
+import Img1 from '../assets/images/webp/img1.webp'
+import Img2 from '../assets/images/webp/img2.webp'
+import Img3 from '../assets/images/webp/img3.webp'
+import Img4 from '../assets/images/webp/img4.webp'
+import Img5 from '../assets/images/webp/img5.webp'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,7 +14,7 @@ const Roadmap = () => {
         dots: false,
         arrows: false,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 6,
         variableWidth:true,
         slidesToScroll: 1,
         autoplay: true,

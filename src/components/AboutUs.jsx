@@ -1,5 +1,5 @@
 import React from 'react'
-import MenWithPhone from '../assets/images/webp/MenWithPhone.png'
+import MenWithPhone from '../assets/images/webp/MenWithPhone.webp'
 import Uniswap from '../assets/images/svg/Uniswap.svg'
 import Dextools_logo2 from '../assets/images/svg/dextools_logo2.svg'
 import Xlogo2 from '../assets/images/svg/x_logo2.svg'
@@ -9,13 +9,22 @@ import AboutSectionSpex from '../assets/images/svg/AboutSectionSpex.svg'
 const AboutUs = () => {
   return (
    <section className='AboutSectionBg position-relative'>
-    <div className="position-absolute AboutSectionSpex opacity-25 z-0">
+    <div className=" position-absolute z-0 Fuding1">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
+    <div className=" position-absolute z-0 Fuding2">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
+    <div className=" position-absolute z-0 Fuding3">
+        <h5 className=' mb-0 color_black2 font_family_Grandstander font_size_xl line_height_2xl font_weight_900'>I love FUDing</h5>
+    </div>
+    <div className="position-absolute AboutSectionSpex z-0">
         <img src={AboutSectionSpex} alt="AboutSectionSpex" />
     </div>
     <div className=" container max_width_1140 About_section_padding_top About_section_padding_bottom">
         <div className=" row">
             <div className=" col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center">
-                <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40 max_width_538' />
+                <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40 max_width_512 min_height_750' />
             </div>
             <div className=" col-12 mt-4 mt-lg-0 col-lg-6 d-flex flex-column align-items-lg-end align-items-center">
             <div className=" max_width_547">

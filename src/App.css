@@ -1,98 +1,127 @@
 @import url(./assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
 }
-.font_family_inter{
+
+.font_family_Grandstander {
+    font-family: "Grandstander", sans-serif;
+}
+
+.font_family_inter {
     font-family: "Inter", sans-serif;
 }
-.nav_paddings{
+
+.nav_paddings {
     padding: 35.92px 0;
 }
-.max_width_1140{
+
+.max_width_1140 {
     max-width: 1140px;
 }
-.gap_15{
+
+.gap_15 {
     gap: 15px;
 }
-.gap_21{
+
+.gap_21 {
     gap: 21.29px;
 }
-.gap_18{
+
+.gap_18 {
     gap: 18.73px;
 }
-.gap_47{
+
+.gap_47 {
     gap: 47px;
 }
-.gap_20{
+
+.gap_20 {
     gap: 10.5px;
 }
-.gap_67{
+
+.gap_67 {
     gap: 37px;
 }
-.gap_18{
+
+.gap_18 {
     gap: 18px;
 }
-.common_button{
+
+.common_button {
     padding: 16px;
     border: 1px solid var(--yellow);
     border-radius: 189px;
     transition: all 400ms ease-in-out;
 }
-.btn_1:hover{
+
+.btn_1:hover {
     background: transparent;
     color: white !important;
     border: 1px solid white;
 }
-.btn_3:hover{
+
+.btn_3:hover {
     background: transparent;
     border: 1px solid var(--yellow);
     color: var(--yellow);
-   
+
 }
-.btn_2{
+
+.btn_2 {
     padding: 16px;
     border: 1px solid #FFFFFF;
     border-radius: 189px;
     transition: all 400ms ease-in-out;
 }
-.btn_2:hover{
+
+.btn_2:hover {
     border: 1px solid transparent;
     color: #000000 !important;
     background: var(--yellow) !important;
 }
-.MenWithHat{
+
+.MenWithHat {
     right: 0;
     bottom: 0;
-    opacity: 40%;
+    opacity: 30%;
 }
-.SocialLinks_padding{
+
+.SocialLinks_padding {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.AboutSectionBg{
-    background-image: url(./assets/images/webp/AboutSectionBg.png);
+
+.AboutSectionBg {
+    background-image: url(./assets/images/webp/AboutSectionBg.webp);
     background-repeat: no-repeat;
-    background-size:  cover;
+    background-size: cover;
     background-position: center;
 }
-.AboutSectionSpex{
+
+.AboutSectionSpex {
     right: 16px;
     bottom: 0;
+    opacity: 40%;
 }
-.TokennomicsTopBubbles{
+
+.TokennomicsTopBubbles {
     top: 0;
     background: white;
 }
-.TokennomicsBottomBubbles{
+
+.TokennomicsBottomBubbles {
     bottom: 0;
     background: white;
 }
-.token_card{
+
+.token_card {
     border: 1px solid #FFFFFF80;
     border-radius: 20px;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -101,453 +130,660 @@
     padding: 27px 25px 40px;
 
 }
-.token_box1{
+
+.token_box1 {
     max-width: 296px;
     height: 101px;
 }
-.token_box2{
+
+.token_box2 {
     max-width: 131px;
     height: 101px;
 }
-.token_box3{
+
+.token_box3 {
     max-width: 152px;
     height: 101px;
 }
-.UtilityBG{
-    background-image: url(./assets/images/webp/UtilityBG.png);
+
+.UtilityBG {
+    background-image: url(./assets/images/webp/UtilityBG.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.MenWithPhoto{
-    max-width: 441px;
-    min-height: 544px;
-}
-.history_div{
+
+.history_div {
     margin-left: -4px;
     margin-right: -4px;
     min-height: 136px;
     rotate: -2.02deg;
 }
 
-.EcosystemBG{
-    background-image: url(./assets/images/webp/EcosystemBG.png);
+.EcosystemBG {
+    background-image: url(./assets/images/webp/EcosystemBG.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-.MenWithNewspaper{
-    min-height: 574px;
-    max-width: 430px;
-}
-.verticle_line{
+
+.verticle_line {
     border: 1px solid var(--yellow);
     min-height: 174px;
 }
-.slick-track{
+
+.slick-track {
     display: flex !important;
-    height: unset ;
+    height: unset;
 }
 
-.NewSectionBG{
+.NewSectionBG {
     top: 70px;
 }
-.News_Card{
+
+.News_Card {
     border: 1px solid #000000;
     background: #FFFFFF;
     transition: all 400ms linear;
     padding: 26.28px 9px 19.8px 22px;
 }
-.News_Card:hover{
-    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+
+.News_Card:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
 }
-.JoeBidenn{
+
+.JoeBidenn {
     width: 81px;
     height: 81px;
 }
-.UtilityNotepad{
-    right: 7%; 
+
+.UtilityNotepad {
+    right: 7%;
     top: -3%;
 }
-.EcosystemNews{
+
+.EcosystemNews {
     top: 11%;
     left: 5%;
 }
-.EcosystemSpex{
+
+.EcosystemSpex {
     right: 5%;
     bottom: 5%;
     max-width: 160px;
 }
-.NewLaptop{
+
+.NewLaptop {
     right: 7%;
     top: 4%;
 }
-.NewMobile{
-left: 7%;
+
+.NewMobile {
+    left: 7%;
     top: 6%;
 }
 
+.copytext_div {
+    max-width: 390px;
+    padding: 10px 16px 15px 19.5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
 
+.copy_text_input {
+    border: none;
+    outline: none;
+}
 
+.Fuding1 {
+    rotate: -20deg;
+    left: 14%;
+    top: 14%;
+    opacity: 30%;
+}
 
+.Fuding2 {
+    rotate: -20deg;
+    left: 35%;
+    bottom: 27%;
+    opacity: 30%;
+}
 
+.Fuding3 {
+    left: 20%;
+    bottom: 9%;
+    opacity: 30%;
+}
 
-.max_width_139{
+.Fuding4 {
+    rotate: -20deg;
+    left: 48%;
+    top: 11%;
+    opacity: 30%;
+}
+
+.Fuding5 {
+    rotate: -20deg;
+    left: 8%;
+    top: 11%;
+    opacity: 30%;
+}
+
+.Fuding6 {
+    left: 44%;
+    bottom: 32%;
+    opacity: 30%;
+}
+
+.margin_top_36 {
+    margin-top: 36px;
+}
+
+.max_width_538 {
+    max-width: 538px;
+}
+
+.max_width_139 {
     max-width: 139px;
     width: 100%;
 }
-.max_width_237{
+
+.max_width_237 {
     max-width: 237px;
 }
-.max_width_185{
+
+.max_width_185 {
     max-width: 185px;
 }
-.roadmap_para_width{
+
+.roadmap_para_width {
     max-width: 894px;
 }
-.roadmap_padding_top{
+
+.roadmap_padding_top {
     padding-top: 78px;
 }
-.roadmap_padding_bottom{
+
+.roadmap_padding_bottom {
     padding-bottom: 80px;
 }
 
-.roadmap_first_box{
+.roadmap_first_box {
     padding-top: 75px;
     width: 230px !important;
 }
-.roadmap_second_box{
+
+.roadmap_second_box {
     width: 281px !important;
 }
-.roadmap_third_box{
+
+.roadmap_third_box {
     width: 281px !important;
 }
-.roadmap_fourth_box{
+
+.roadmap_fourth_box {
     width: 294px !important;
 }
-.roadmap_fifth_box{
+
+.roadmap_fifth_box {
     width: 283px !important;
 }
 
-.opacity_70{
+.opacity_70 {
     opacity: 70%;
 }
-.opacity_80{
+
+.opacity_80 {
     opacity: 80%;
 }
-.hero_button_padding_top{
+
+.hero_button_padding_top {
     padding-top: 32.35px;
 }
-.About_section_padding_top{
+
+.About_section_padding_top {
     padding-top: 40.76px;
 }
-.About_section_padding_bottom{
+
+.About_section_padding_bottom {
     padding-bottom: 48px;
 }
 
-.margin_bottom_20{
+.margin_bottom_20 {
     margin-bottom: 20px;
 }
-.tokenomic_section_padding_top{
+
+.tokenomic_section_padding_top {
     padding-top: 80px;
 }
-.tokenomic_section_padding_bottom{
+
+.tokenomic_section_padding_bottom {
     padding-bottom: 100px;
 }
-.News_Card_Row_padding_top{
+
+.News_Card_Row_padding_top {
     padding-top: 30px;
 }
-.News_Card_Row_padding_bottom{
+
+.News_Card_Row_padding_bottom {
     padding-bottom: 48px;
 }
-.News_section_padding_top{
+
+.News_section_padding_top {
     padding-top: 48px;
 }
-.Utility_section_padding_top{
+
+.Utility_section_padding_top {
     padding-top: 44px;
 }
-.Ecosystem_padding_top{
+
+.Ecosystem_padding_top {
     padding-top: 44px;
 }
-.Ecosystem_padding_bottom{
-   padding-bottom: 39px;
+
+.Ecosystem_padding_bottom {
+    padding-bottom: 39px;
 }
-.footer_padding_top{
+
+.footer_padding_top {
     padding-top: 73px;
 }
-.footer_padding_bottom{
+
+.footer_padding_bottom {
     padding-bottom: 50px;
 }
-.slider_padding_top{
+
+.slider_padding_top {
     padding-top: 51px;
 }
-.padding_bottom_12{
+
+.padding_bottom_12 {
     padding-bottom: 12.5px;
 }
-.margin_top_33{
+
+.margin_top_33 {
     margin-top: 33px;
 }
-.z_index{
-    z-index: 1 !important;
+
+.z_index {
+    z-index: 0 !important;
 }
-.padding_right_12{
+
+.z_index_1 {
+    z-index: 1;
+}
+
+.padding_right_12 {
     padding-right: 12px;
 }
-.margin_top_28{
+
+.margin_top_28 {
     margin-top: 28px;
 }
-.margin_bottom_30{
+
+.margin_bottom_30 {
     margin-bottom: 16px;
 }
-.max_width_538{
-    max-width: 538px;
+
+.max_width_512 {
+    max-width: 512px;
 }
-.max_width_576{
+
+.max_width_576 {
     max-width: 576px;
 }
-.max_width_453{
+
+.max_width_453 {
     max-width: 453px;
 }
-.marginX_72{
+
+.marginX_72 {
     margin-left: 22px;
     margin-right: 22px;
 }
-.max_width_616{
+
+.max_width_616 {
     max-width: 616.46px;
 }
-.max_width_547{
+
+.max_width_547 {
     max-width: 547px;
 }
-.pt_14{
+
+.pt_14 {
     padding-top: 14px;
 }
-.pb_32{
+
+.pb_32 {
     padding-bottom: 32px;
 }
-.px_10{
+
+.px_10 {
     padding-left: 10px;
     padding-right: 10px;
 }
-.mx_10{
+
+.mx_10 {
     margin-left: -10px;
     margin-right: -10px;
 }
+
 @media (min-width:576px) {
-    .gap_20{
+    .MenWithPhoto {
+        max-width: 441px;
+        min-height: 544px;
+    }
+
+    .MenWithNewspaper {
+        min-height: 574px;
+        max-width: 430px;
+    }
+
+    .min_height_750 {
+        height: 750px;
+    }
+
+    .gap_20 {
         gap: 20.5px;
     }
-    .marginX_72{
+
+    .marginX_72 {
         margin-left: 42px;
         margin-right: 42px;
     }
-    .hero_button_padding_top{
+
+    .hero_button_padding_top {
         padding-top: 62.35px;
     }
-    .common_button{
+
+    .common_button {
         padding: 19px 32px;
     }
-    .btn_2{
+
+    .btn_2 {
         padding: 19px 32px;
     }
-    .padding_top_40{
+
+    .padding_top_40 {
         padding-top: 40px;
     }
-    .margin_bottom_30{
+
+    .margin_bottom_30 {
         margin-bottom: 30px;
     }
-    .gap_67{
+
+    .gap_67 {
         gap: 67px;
     }
-    .slider_padding_top{
+
+    .slider_padding_top {
         padding-top: 61px;
     }
 
-    .News_Card_Row_padding_top{
+    .News_Card_Row_padding_top {
         padding-top: 47px;
     }
-    .News_Card_Row_padding_bottom{
+
+    .News_Card_Row_padding_bottom {
         padding-bottom: 70px;
     }
-    .News_section_padding_top{
+
+    .News_section_padding_top {
         padding-top: 60px;
     }
-    .footer_padding_top{
+
+    .footer_padding_top {
         padding-top: 113px;
     }
-    .footer_padding_bottom{
+
+    .footer_padding_bottom {
         padding-bottom: 90px;
     }
-    .roadmap_padding_top{
+
+    .roadmap_padding_top {
         padding-top: 178px;
     }
-    .roadmap_padding_bottom{
+
+    .roadmap_padding_bottom {
         padding-bottom: 150px;
     }
-    .Ecosystem_padding_top{
+
+    .Ecosystem_padding_top {
         padding-top: 104px;
     }
-    .Ecosystem_padding_bottom{
-       padding-bottom: 49px;
+
+    .Ecosystem_padding_bottom {
+        padding-bottom: 49px;
     }
-    .Utility_section_padding_top{
+
+    .Utility_section_padding_top {
         padding-top: 94px;
     }
-    .tokenomic_section_padding_top{
+
+    .tokenomic_section_padding_top {
         padding-top: 153px;
     }
-    .tokenomic_section_padding_bottom{
+
+    .tokenomic_section_padding_bottom {
         padding-bottom: 160px;
     }
 }
+
 @media (min-width:768px) {
-    .AboutSectionSpex{
+    .AboutSectionSpex {
         opacity: 1;
     }
-    .marginX_72{
+
+    .About_section_padding_bottom {
+        padding-bottom: 90px;
+    }
+
+    .marginX_72 {
         margin-left: 72px;
         margin-right: 72px;
     }
-    .slider_padding_top{
+
+    .slider_padding_top {
         padding-top: 101px;
     }
-    .slider_padding_bottom{
+
+    .slider_padding_bottom {
         padding-bottom: 53px;
     }
-    .News_Card_Row_padding_top{
+
+    .News_Card_Row_padding_top {
         padding-top: 67px;
     }
-    .News_Card_Row_padding_bottom{
+
+    .News_Card_Row_padding_bottom {
         padding-bottom: 97px;
     }
-    .News_section_padding_top{
+
+    .News_section_padding_top {
         padding-top: 85px;
     }
-    .footer_padding_top{
+
+    .footer_padding_top {
         padding-top: 153px;
     }
-    .footer_padding_bottom{
+
+    .footer_padding_bottom {
         padding-bottom: 120px;
     }
-    .roadmap_padding_top{
+
+    .roadmap_padding_top {
         padding-top: 218px;
     }
-    .roadmap_padding_bottom{
+
+    .roadmap_padding_bottom {
         padding-bottom: 170px;
     }
-    .Ecosystem_padding_top{
+
+    .Ecosystem_padding_top {
         padding-top: 134px;
     }
-    .Ecosystem_padding_bottom{
-       padding-bottom: 69px;
+
+    .Ecosystem_padding_bottom {
+        padding-bottom: 69px;
     }
-    .Utility_section_padding_top{
+
+    .Utility_section_padding_top {
         padding-top: 94px;
     }
-    .tokenomic_section_padding_top{
+
+    .tokenomic_section_padding_top {
         padding-top: 203px;
     }
-    .tokenomic_section_padding_bottom{
+
+    .tokenomic_section_padding_bottom {
         padding-bottom: 200px;
     }
 }
+
 @media (max-width:768px) {
     .mobile_view {
-      display: flex;
-      align-items: center !important;
-      justify-content: center !important;
-      flex-direction: column;
-      top: 0;
-      transition: all 700ms linear;
-      background: black;
-      min-height: 100vh;
-      position: fixed;
-      width: 100%;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+        top: 0;
+        transition: all 700ms linear;
+        background: black;
+        min-height: 100vh;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
     }
-  
+
     .overflow_hidden {
-      overflow: hidden;
+        overflow: hidden;
     }
-  
+
     .bar {
-      width: 26px;
-      height: 3px;
-      z-index: 99;
-      background: white;
-      transition: all 400ms linear;
+        width: 26px;
+        height: 3px;
+        z-index: 99;
+        background: white;
+        transition: all 400ms linear;
     }
-  
+
     .cross .bar:nth-child(1) {
-      transform: translateY(8px);
-      rotate: 45deg;
+        transform: translateY(8px);
+        rotate: 45deg;
     }
-  
+
     .cross .bar:nth-child(2) {
-      transform: translateX(-100%);
-      display: none;
+        transform: translateX(-100%);
+        display: none;
     }
-  
+
     .cross .bar:nth-child(3) {
-      transform: translateY(-8px);
-      rotate: -48deg;
+        transform: translateY(-8px);
+        rotate: -48deg;
     }
-  
+
     .navShow {
-      right: 0;
+        right: 0;
     }
-  
+
     .navhide {
-      right: -100%;
+        right: -100%;
     }
-  
-  }
-  
+
+}
+
 @media (min-width:992px) {
-  .MenWithHat{
-    opacity: 1;
-  }
-  .About_section_padding_top{
-    padding-top: 218.76px !important;
+    .Fuding4 {
+        opacity: 1;
+    }
+
+    .Fuding5 {
+        opacity: 1;
+    }
+
+    .Fuding6 {
+        opacity: 1;
+    }
+
+    .MenWithHat {
+        opacity: 1;
+    }
+
+    .About_section_padding_top {
+        padding-top: 218.76px !important;
+    }
+
+    .slider_padding_top {
+        padding-top: 141px;
+    }
+
+    .slider_padding_bottom {
+        padding-bottom: 143px;
+    }
+
+    .News_Card_Row_padding_top {
+        padding-top: 97px;
+    }
+
+    .News_Card_Row_padding_bottom {
+        padding-bottom: 97px;
+    }
+
+    .News_section_padding_top {
+        padding-top: 125px;
+    }
+
+    .footer_padding_top {
+        padding-top: 153px;
+    }
+
+    .footer_padding_bottom {
+        padding-bottom: 120px;
+    }
+
+    .roadmap_padding_top {
+        padding-top: 278px;
+    }
+
+    .roadmap_padding_bottom {
+        padding-bottom: 210px;
+    }
+
+    .Ecosystem_padding_top {
+        padding-top: 234px;
+    }
+
+    .Ecosystem_padding_bottom {
+        padding-bottom: 69px;
+    }
+
+    .Utility_section_padding_top {
+        padding-top: 144px;
+    }
+
+    .tokenomic_section_padding_top {
+        padding-top: 293px;
+    }
+
+    .tokenomic_section_padding_bottom {
+        padding-bottom: 250px;
+    }
+
+    .About_section_padding_bottom {
+        padding-bottom: 130px;
+    }
 }
-.slider_padding_top{
-    padding-top: 141px;
-}
-.slider_padding_bottom{
-    padding-bottom: 143px;
-}
-.News_Card_Row_padding_top{
-    padding-top: 97px;
-}
-.News_Card_Row_padding_bottom{
-    padding-bottom: 97px;
-}
-.News_section_padding_top{
-    padding-top: 125px;
-}
-.footer_padding_top{
-    padding-top: 153px;
-}
-.footer_padding_bottom{
-    padding-bottom: 120px;
-}
-.roadmap_padding_top{
-    padding-top: 278px;
-}
-.roadmap_padding_bottom{
-    padding-bottom: 210px;
-}
-.Ecosystem_padding_top{
-    padding-top: 234px;
-}
-.Ecosystem_padding_bottom{
-   padding-bottom: 69px;
-}
-.Utility_section_padding_top{
-    padding-top: 144px;
-}
-.tokenomic_section_padding_top{
-    padding-top: 293px;
-}
-.tokenomic_section_padding_bottom{
-    padding-bottom: 250px;
-}
+
+@media (min-width:1200px) {
+    .Fuding1 {
+        opacity: 1;
+    }
+
+    .Fuding2 {
+        opacity: 1;
+    }
+
+    .Fuding3 {
+        opacity: 1;
+    }
 }

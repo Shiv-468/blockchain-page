@@ -10,7 +10,7 @@
     --font-size-3xl: 33.44px;
     --font-size-4xl: 48px;
     --font-size-5xl: 44px;
-    --font-size-6xl:79px;
+    --font-size-6xl: 79px;
     --font-size-7xl: 108.22px;
 
     --line-height-xsm: 17.7px;
@@ -28,15 +28,22 @@
     --line-height-7xl: 60px;
     --line-height-8xl: 130.97px;
 
-    --yellow:#FC9800;
+    --black2: #0000008A;
+    --yellow: #FC9800;
 }
 
-.color_yellow{
+.color_black2 {
+    color: var(--black2);
+}
+
+.color_yellow {
     color: var(--yellow);
 }
-.bg_yellow{
+
+.bg_yellow {
     background: var(--yellow);
 }
+
 .font_size_xsm {
     font-size: var(--font-size-xsm);
 }
@@ -84,6 +91,7 @@
 .font_size_6xl {
     font-size: var(--font-size-6xl);
 }
+
 .font_size_7xl {
     font-size: var(--font-size-7xl);
 }
@@ -102,9 +110,11 @@
 .line_height_xmd {
     line-height: var(--line-height-xmd);
 }
+
 .line_height_md {
     line-height: var(--line-height-md);
 }
+
 .line_height_xlg {
     line-height: var(--line-height-xlg);
 }
@@ -120,29 +130,36 @@
 .line_height_2xl {
     line-height: var(--line-height-2xl);
 }
+
 .line_height_3xl {
     line-height: var(--line-height-3xl);
 }
+
 .line_height_4xl {
     line-height: var(--line-height-4xl);
 }
+
 .line_height_5xl {
     line-height: var(--line-height-5xl);
 }
+
 .line_height_6xl {
     line-height: var(--line-height-6xl);
 }
+
 .line_height_7xl {
     line-height: var(--line-height-7xl);
 }
+
 .line_height_8xl {
     line-height: var(--line-height-8xl);
 }
 
 
-.font_weight_900{
+.font_weight_900 {
     font-weight: 900;
 }
+
 @media (min-width:576px) {
     :root {
         --font-size-xsm: 14px;
@@ -156,9 +173,9 @@
         --font-size-3xl: 40.44px;
         --font-size-4xl: 48px;
         --font-size-5xl: 64px;
-        --font-size-6xl:79px;
+        --font-size-6xl: 79px;
         --font-size-7xl: 108.22px;
-    
+
         --line-height-xsm: 17.7px;
         --line-height-sm: 19.36px;
         --line-height-xmd: 24.2px;
@@ -173,6 +190,6 @@
         --line-height-6xl: 77.45px;
         --line-height-7xl: 95px;
         --line-height-8xl: 130.97px;
-    
+
     }
 }
