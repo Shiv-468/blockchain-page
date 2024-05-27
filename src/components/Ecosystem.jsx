@@ -18,10 +18,10 @@ const Ecosystem = () => {
     </div>
     <div className=" container max_width_1140 Ecosystem_padding_top Ecosystem_padding_bottom">
         <div className=" row">
-            <div className=" col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+            <div className=" col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start" data-aos="fade-right">
                 <img src={MenWithNewspaper} alt="MenWithNewspaper" className=' w-100 MenWithNewspaper' />
             </div>
-            <div className=" col-12 col-lg-6 d-flex pt-4 justify-content-center justify-content-lg-end">
+            <div className=" col-12 col-lg-6 d-flex pt-4 justify-content-center justify-content-lg-end" data-aos="fade-left">
           <div className=" max_width_547">
           <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap">
                 <a href="https://www.dextools.io/app/en/pairs">

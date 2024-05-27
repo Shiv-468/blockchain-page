@@ -61,7 +61,7 @@ const HeroSection = () => {
         </nav>
       </div>
       <div className=" d-flex flex-grow-1 align-items-center justify-content-center">
-        <div className=" container max_width_1140 z_index_1">
+        <div className=" container max_width_1140 z_index_1" data-aos="fade-down-right">
           <h1 className=' mb-0 text-white font_size_7xl line_height_8xl font_family_inter font_weight_900'>G<span className='color_yellow'>G</span></h1>
           <p className=' mb-0 text-white font_size_md line_height_xmd max_width_538'>Join The <span className=' color_yellow'>Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
           <div className=" d-flex gap_20 hero_button_padding_top">

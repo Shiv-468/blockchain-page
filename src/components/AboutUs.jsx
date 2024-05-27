@@ -23,10 +23,10 @@ const AboutUs = () => {
     </div>
     <div className=" container max_width_1140 About_section_padding_top About_section_padding_bottom">
         <div className=" row">
-            <div className=" col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center">
+            <div className=" col-12 col-lg-6 d-flex justify-content-lg-start justify-content-center" data-aos="fade-right">
                 <img src={MenWithPhone} alt="MenWithPhone" className=' w-100 padding_top_40 max_width_512 min_height_750' />
             </div>
-            <div className=" col-12 mt-4 mt-lg-0 col-lg-6 d-flex flex-column align-items-lg-end align-items-center">
+            <div className=" col-12 mt-4 mt-lg-0 col-lg-6 d-flex flex-column align-items-lg-end align-items-center" data-aos="fade-left">
             <div className=" max_width_547">
                 <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap ">
                 <a href="https://www.dextools.io/app/en/pairs">

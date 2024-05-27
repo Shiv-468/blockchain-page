@@ -23,19 +23,19 @@ const SocialLinks = () => {
         <section className=' bg_yellow '>
             <div className="container max_width_1140 SocialLinks_padding">
                 <Slider {...settings}>
-                    <div className=' marginX_72'>
+                    <div className=' marginX_72' data-aos="zoom-in">
                         <a href='' className=" d-flex align-items-center text-decoration-none gap-4">
                             <img src={Xlogo} alt="Xlogo" />
                             <span className=' mb-0 font_size_4xl line_height_5xl text-white fw-semibold font_family_inter'>twitter</span>
                         </a>
                     </div>
-                    <div className=' marginX_72'>
+                    <div className=' marginX_72' data-aos="zoom-in">
                         <a href='' className=" d-flex align-items-center text-decoration-none gap-4">
                             <img src={Telegram} alt="Telegram" />
                             <span className=' mb-0 font_size_4xl line_height_5xl text-white fw-semibold font_family_inter'>Telegram</span>
                         </a>
                     </div>
-                    <div className=' marginX_72'>
+                    <div className=' marginX_72' data-aos="zoom-in">
                         <a href='' className=" d-flex align-items-center text-decoration-none gap-4">
                             <img src={Dextools} alt="Dextools" />
                             <span className=' mb-0 font_size_4xl line_height_5xl text-white fw-semibold font_family_inter'>DEXTOOLS</span>

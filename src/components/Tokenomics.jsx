@@ -12,7 +12,7 @@ const Tokenomics = () => {
             </div>
             <div className=" container max_width_1140 tokenomic_section_padding_top tokenomic_section_padding_bottom">
                 <div className=" row">
-                    <div className=" col-12 col-lg-5 d-flex flex-column align-items-center align-items-lg-start">
+                    <div className=" col-12 col-lg-5 d-flex flex-column align-items-center align-items-lg-start" data-aos="zoom-in-down">
                         <div className=" d-flex flex-column">
                             <h2 className=' text-white mb-0 font_family_inter font_weight_900 font_size_5xl line_height_6xl margin_bottom_20 '>TOKENOMICS</h2>
                             <p className=' margin_bottom_20 opacity_80 text-white font_family_inter fw-normal font_size_xmd line_height_xl max_width_453'>Let's Hug GG ($LHGG) operates on a deflationary tokenomics model designed to incentivize selling Bitcoin.  With a fixed total supply and a burn mechanism in place, each transaction contributes to reducing the  circulating supply of $LHGG, thereby increasing its scarcity and value over time. Additionally, a portion of  transaction fees is allocated to liquidity pools, ensuring stability and liquidity for $LHGG holders.</p>
@@ -36,7 +36,7 @@ const Tokenomics = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" col-12 col-lg-7 d-flex justify-content-center justify-content-lg-end h-100 mt-5">
+                    <div className=" col-12 col-lg-7 d-flex justify-content-center justify-content-lg-end h-100 mt-5" data-aos="zoom-in-down">
                         <div className="max_width_616 w-100 d-flex gap_18 justify-content-center flex-wrap">
                             <div className="token_box1 w-100 bg_yellow w-100 d-flex align-items-center justify-content-center">
                                 <div className=" d-flex flex-column align-items-center">

@@ -1,4 +1,7 @@
 import './App.css';
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import AboutUs from './components/AboutUs';
 import Ecosystem from './components/Ecosystem';
 import Footer from './components/Footer';
@@ -10,6 +13,12 @@ import Tokenomics from './components/Tokenomics';
 import Utility from './components/Utility';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    }
+    );
+  }, [])
   return (
     <div className='overflow-hidden'>
       <HeroSection />
