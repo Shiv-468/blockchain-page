@@ -16,7 +16,7 @@ const Utility = () => {
       <div className=" position-absolute UtilityNotepad z-0">
         <img src={UtilityNotepad} alt="UtilityNotepad" />
       </div>
-        <div className="container max_width_1140 Utility_section_padding_top">
+        <div className="container my_container Utility_section_padding_top">
             <div className="row pb-5">
                 <div className=" col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start" data-aos="fade-right">
                   <div className=" d-flex flex-column align-items-start">

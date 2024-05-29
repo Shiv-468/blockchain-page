@@ -24,17 +24,17 @@ const HeroSection = () => {
   }
     , [text])
   return (
-    <section className=' bg-black min-vh-100 d-flex flex-column position-relative'>
+    <section className=' bg-black min_vh_90 d-flex flex-column position-relative'>
       <div className=" position-absolute MenWithHat z-0">
-        <img src={MenWithHat} alt="MenWithHat" className=' w-100 max_width_576 z_index' />
+        <img src={MenWithHat} alt="MenWithHat" className=' w-100 max_width_576 max_width_490 z_index' />
       </div>
-      <div className=" container max_width_1140">
+      <div className=" container my_container w-100">
         <nav className=' nav_paddings d-flex align-items-center justify-content-between'>
           <div className="logo">
             <h3 className=' mb-0 font_family_inter font_weight_900 font_size_3xl line_height_4xl text-white'>Gxxx Gxxxxxx</h3>
           </div>
           <div className={`${data ? "navShow" : "navhide"} d-flex gap_47 align-items-center mobile_view`} >
-            <ul className="gap_21 d-flex flex-column flex-md-row align-items-center ps-0 mb-0" >
+            <ul className="gap_21 d-flex flex-column flex-lg-row align-items-center ps-0 mb-0" >
               <li>
                 <a href="https://www.dextools.io/app/en/pairs" target=' _blank'>
                   <img src={Dextools} alt="dextools_logo" />
@@ -53,7 +53,7 @@ const HeroSection = () => {
             </ul>
             <button className=' font_family_inter text-white font_size_xmd line_height_sm btn_2 bg-transparent fw-semibold'>Buy On Uniswap</button>
           </div>
-          <div onClick={view} className={`${data ? "cross" : "menu"}  d-flex flex-column gap-2 d-md-none`}>
+          <div onClick={view} className={`${data ? "cross" : "menu"}  d-flex flex-column gap-2 d-lg-none`}>
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
@@ -61,7 +61,7 @@ const HeroSection = () => {
         </nav>
       </div>
       <div className=" d-flex flex-grow-1 align-items-center justify-content-center">
-        <div className=" container max_width_1140 z_index_1" data-aos="fade-down-right">
+        <div className=" container my_container w-100 z_index_1" data-aos="fade-down-right">
           <h1 className=' mb-0 text-white font_size_7xl line_height_8xl font_family_inter font_weight_900'>G<span className='color_yellow'>G</span></h1>
           <p className=' mb-0 text-white fw-semibold font_size_md line_height_xmd max_width_538'>Join The <span className=' color_yellow'>Worldwide Blockchain</span> Protest Against Corrupt Government Bodies</p>
           <div className=" d-flex gap_20 hero_button_padding_top">

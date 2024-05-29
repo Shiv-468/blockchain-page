@@ -14,10 +14,14 @@ const Roadmap = () => {
         dots: false,
         arrows: false,
         infinite: true,
+        speed:8000,
+        pauseOnHover:false,
+        autoplaySpeed:0,
         slidesToShow: 6,
         variableWidth:true,
         slidesToScroll: 1,
         autoplay: true,
+        cssEase:'linear',
     };
     return (
         <section className=' bg-black position-relative roadmap_padding_bottom'>
@@ -27,7 +31,7 @@ const Roadmap = () => {
             <div className=" position-absolute TokennomicsBottomBubbles w-100">
                 <img src={RoadmapBottomBubbles} alt="TokennomicsBottomBubbles" className=' w-100' />
             </div>
-            <div className=" container roadmap_padding_top ">
+            <div className=" container my_container roadmap_padding_top ">
                 <div className=" d-flex flex-column align-items-center justify-content-center">
                     <h2 className=' margin_bottom_20 text-white font_weight_900 font_family_inter font_size_5xl line_height_6xl'>ROADMAP</h2>
                     <p className=' mb-0 roadmap_para_width opacity_70 text-white fw-normal font_size_xmd line_height_xl font_family_inter text-center'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</p>

@@ -16,14 +16,14 @@ const Ecosystem = () => {
     <div className=" position-absolute EcosystemSpex z-0">
         <img src={AboutSectionSpex} alt="EcosystemSpex" className=' w-100' />
     </div>
-    <div className=" container max_width_1140 Ecosystem_padding_top Ecosystem_padding_bottom">
+    <div className=" container my_container Ecosystem_padding_top Ecosystem_padding_bottom">
         <div className=" row">
             <div className=" col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start" data-aos="fade-right">
                 <img src={MenWithNewspaper} alt="MenWithNewspaper" className=' w-100 MenWithNewspaper' />
             </div>
             <div className=" col-12 col-lg-6 d-flex pt-4 justify-content-center justify-content-lg-end" data-aos="fade-left">
           <div className=" max_width_547">
-          <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-2 gap-md-4 flex-wrap">
+          <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-3 gap-xl-4 flex-wrap">
                 <a href="https://www.dextools.io/app/en/pairs" target='_blank'>
                         <img src={Dextools_logo2} alt="Dextools_logo2" />
                     </a>

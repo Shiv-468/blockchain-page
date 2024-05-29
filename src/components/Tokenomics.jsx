@@ -10,13 +10,13 @@ const Tokenomics = () => {
             <div className=" position-absolute TokennomicsBottomBubbles">
                 <img src={TokennomicsBottomBubbles} alt="TokennomicsBottomBubbles" className=' w-100' />
             </div>
-            <div className=" container max_width_1140 tokenomic_section_padding_top tokenomic_section_padding_bottom">
+            <div className=" container my_container tokenomic_section_padding_top tokenomic_section_padding_bottom">
                 <div className=" row">
                     <div className=" col-12 col-lg-5 d-flex flex-column align-items-center align-items-lg-start" data-aos="zoom-in-down">
                         <div className=" d-flex flex-column">
                             <h2 className=' text-white mb-0 font_family_inter font_weight_900 font_size_5xl line_height_6xl margin_bottom_20 '>TOKENOMICS</h2>
                             <p className=' margin_bottom_20 opacity_80 text-white font_family_inter fw-normal font_size_xmd line_height_xl max_width_453'>Let's Hug GG ($LHGG) operates on a deflationary tokenomics model designed to incentivize selling Bitcoin.  With a fixed total supply and a burn mechanism in place, each transaction contributes to reducing the  circulating supply of $LHGG, thereby increasing its scarcity and value over time. Additionally, a portion of  transaction fees is allocated to liquidity pools, ensuring stability and liquidity for $LHGG holders.</p>
-                            <div className="token_card">
+                            <div className="token_card w-100">
                                 <div className=" d-flex gap-3 padding_bottom_12">
                                     <p className='mb-0 text-white max_width_139 font_size_md line_height_xl fw-normal'>Token Name:</p>
                                     <p className=' mb-0 text-white font_size_md line_height_xl fw-bold'>Let’s Hug GG</p>
