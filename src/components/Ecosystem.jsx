@@ -14,7 +14,7 @@ const Ecosystem = () => {
         <img src={EcosystemNews} alt="EcosystemNews" />
     </div>
     <div className=" position-absolute EcosystemSpex z-0">
-        <img src={AboutSectionSpex} alt="EcosystemSpex" className=' w-100' />
+        <img src={AboutSectionSpex} alt="EcosystemSpex" className=' w-100 AboutSectionSpex' />
     </div>
     <div className=" container my_container Ecosystem_padding_top Ecosystem_padding_bottom">
         <div className=" row">
