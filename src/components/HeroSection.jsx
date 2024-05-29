@@ -8,7 +8,6 @@ const HeroSection = () => {
   const textCopy = useRef(null)
   const [data, setdata] = useState(false);
   const [text, settext] = useState('');
-  console.log(text)
   function view() {
     setdata(!data)
     if (data === false) {
