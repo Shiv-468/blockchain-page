@@ -548,9 +548,7 @@
 }
 
 @media (min-width:767.9px) {
-    .min_vh_90{
-        min-height: 75vh;
-    }
+
     .margin_top_28 {
         margin-top: 28px;
     }
@@ -689,9 +687,6 @@
 }
 
 @media (min-width:992px) {
-    .min_vh_90{
-        min-height: 90vh;
-    }
     .token_card {
         max-width: 404px;
     }
