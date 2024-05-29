@@ -794,7 +794,7 @@
 
 @media (min-width:1200px) {
     .min_vh_90{
-        min-height: 95vh;
+        min-height: 100vh;
     }
     .token_box1 {
         max-width: 296px;
