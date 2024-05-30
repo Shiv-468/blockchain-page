@@ -27,7 +27,7 @@
     src: url(./assets/fonts/SF-Pro-Text-Regular.otf);
 }
 .nav_paddings {
-    padding: 35.92px 0;
+    padding: 25.92px 0;
 }
 
 .gap_15 {
@@ -553,6 +553,9 @@
 }
 
 @media (min-width:767.9px) {
+    .nav_paddings {
+        padding: 35.92px 0;
+    }
 
     .margin_top_28 {
         margin-top: 28px;
