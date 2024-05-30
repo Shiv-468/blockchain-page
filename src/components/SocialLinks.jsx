@@ -8,7 +8,7 @@ const SocialLinks = () => {
         <section className=' bg_yellow '>
             <div className="container my_container SocialLinks_padding">
                    <div className="row justify-content-center">
-                   <div className='col-12 col-md-6 col-xl-4 d-flex align-items-center justify-content-center' data-aos="zoom-in">
+                   <div className='col-12 col-md-6 col-xl-4 d-flex align-items-center justify-content-center justify-content-md-start' data-aos="zoom-in">
                         <a href='https://twitter.com/' target='_blank' className=" d-flex align-items-center text-decoration-none gap-3 gap-xl-4">
                             <img src={Xlogo} alt="Xlogo" />
                             <span className=' mb-0 font_size_4xl line_height_5xl text-white fw-semibold font_family_inter'>twitter</span>

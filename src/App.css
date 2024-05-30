@@ -64,7 +64,9 @@
     border-radius: 189px;
     transition: all 400ms ease-in-out;
 }
-
+.btn_1:hover{
+    opacity: 80%;
+}
 .btn_2 {
     padding: 16px;
     border: 1px solid #FFFFFF;
@@ -73,9 +75,8 @@
 }
 
 .btn_2:hover {
-    border: 1px solid transparent;
-    color: #000000 !important;
-    background: var(--yellow) !important;
+    border: 1px solid var(--yellow);
+    color: var(--yellow) !important;
 }
 
 .MenWithHat {
@@ -121,17 +122,14 @@
 
 }
 .token_box1 {
-    /* max-width: 296px; */
     height: 101px;
 }
 
 .token_box2 {
-    /* max-width: 131px; */
     height: 101px;
 }
 
 .token_box3 {
-    /* max-width: 152px; */
     height: 101px;
 }
 
