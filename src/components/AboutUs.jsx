@@ -30,19 +30,19 @@ const AboutUs = () => {
             <div className=" max_width_547">
                 <div className=" d-flex align-items-center justify-content-center justify-content-sm-start gap-1 gap-sm-3 gap-xl-4 flex-wrap ">
                 <a href="https://www.dextools.io/app/en/pairs" target='_blank'>
-                        <img src={Dextools_logo2} alt="Dextools_logo2" className=' w-100' />
+                        <img src={Dextools_logo2} alt="Dextools_logo2" className=' w-100 socialmedia_img' />
                     </a>
                     <a href="https://uniswap.org/" target='_blank'>
-                        <img src={Uniswap} alt="Uniswap" className=' w-100 ' />
+                        <img src={Uniswap} alt="Uniswap" className=' w-100 socialmedia_img' />
                     </a>
                     <a href="https://twitter.com/" target='_blank'>
-                        <img src={Xlogo2} alt="Xlogo2" className=' w-100 ' />
+                        <img src={Xlogo2} alt="Xlogo2" className=' w-100 socialmedia_img ' />
                     </a>
                     <a href="https://telegram.org/" target='_blank'>
-                        <img src={Telegram_symbol2} alt="Telegram_symbol2" className=' w-100 ' />
+                        <img src={Telegram_symbol2} alt="Telegram_symbol2" className=' w-100 socialmedia_img ' />
                     </a>
                     <a href="https://etherscan.io/" target='_blank'>
-                        <img src={Etherscan} alt="Etherscan" className=' w-100 ' />
+                        <img src={Etherscan} alt="Etherscan" className=' w-100 socialmedia_img ' />
                     </a>
                 </div>
                 <h2 className=' text-black font_size_5xl line_height_6xl font_weight_900 font_family_inter mt-3 mt-xl-4 margin_bottom_20'>ABOUT US</h2>

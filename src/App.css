@@ -257,7 +257,9 @@
     top: 11%;
     opacity: 30%;
 }
-
+.socialmedia_img{
+    max-width: 60px;
+}
 .Fuding6 {
     left: 44%;
     bottom: 32%;
@@ -375,7 +377,7 @@
 }
 
 .footer_padding_top {
-    padding-top: 73px;
+    padding-top: 48px;
 }
 
 .footer_padding_bottom {
@@ -452,6 +454,9 @@
 }
 
 @media (min-width:576px) {
+    .socialmedia_img{
+        max-width: 100%;
+    }
     .MenWithPhoto {
         max-width: 441px;
         min-height: 544px;
